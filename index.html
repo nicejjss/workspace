@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./accest/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koh+Santepheap:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./accest/css/grid.css">
+        <link rel="stylesheet" href="./accest/css/responsive.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="headertitle">
+            <div class="headertitle_phone">
+                <a href=".demo" class="space">Schedule a Demo</a>
+                <span class="space"> or call</span>
+                <a href="#" class="space"> 844-337-5846</a>
+                <div class="login">
+                    <div class="login_text">Log In</div>
+                    <ul class="sub_login">
+                        <li class="sub_login-main"><a href="#" class="sub_login-main-text">Member Login</a></li>
+                        <div></div>
+                        <li class="sub_login-others">
+                            <a href="#" class="sub_login-others-text">Team Manager Login</a>
+                            <a href="#" class="sub_login-others-text">Space Host Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="headertitle_nav">
+                <li><a href="index.html" class="text_view main_logo">deskpass</a></li>
+                <ul class="text_view naviglheader">
+                    <li class="header_nav"><a href="#stated" class="header_nav_text"> Get Your Team Started</a></li>
+                    <li class="header_nav"><a href="#individual" class="header_nav_text">Individual Plans</a>
+                    </li>
+                    <li class="header_nav header_nav_text login"> Explore Our Spaces
+                        <ul class="sub_login sub_login_nav">
+                            <li class="sub_login-main"><a href="#" class="sub_login-main-text">Search Out Network</a>
+                            </li>
+                            <div></div>
+                            <li class="sub_login-others sub_nav">
+                                <a href="#" class="sub_login-others-text">Coworking Spaces</a>
+                                <a href="#" class="sub_login-others-text">Conference Rooms</a>
+                                <a href="#" class="sub_login-others-text">Private Offices</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </ul>
+            <input type="checkbox" name="" id="menu" style="display: none;">
+            <label for="menu" class="menuicon" onclick=" myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </label>
+            <div class="header-phone-res">
+                <div class="headertitle_phone res-phone">
+                    <a href=".demo" class="space">Schedule a Demo</a>
+                    <span class="space"> or call</span>
+                    <a href="#" class="space phonecall"> 844-337-5846</a>
+                    <div class="login">
+                        <a class="login_text">Log In</a>
+                    </div>
+                </div>
+                <div class="headertitle_nav res-phone">
+                    <ul class="text_view naviglheader">
+                        <li class="header_nav"><a href="#stated" class="header_nav_text"> Get Your Team Started</a></li>
+                        <li class="header_nav"><a href="#individual" class="header_nav_text">Individual Plans</a>
+                        </li>
+                        <li class="header_nav header_nav_text login"><a href="#" class="header_nav_text"> Explore Our Spaces</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header-body">
+            <div class="header-slide">
+                <ul class="header-slide-1 header-slide-img ">
+                    <li class="imgitem1 imgspace">
+                        <a href="#" class="imgitem1_press">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-bos-workbar.jpg?crop=foc
+                        alpoint&domain=deskpass-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="imgitem2 imgspace">
+                        <a href="#" class="imgitem2_press ">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-atl-alkaloid-networks.jpg?crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="imgitem3 imgspace">
+                        <a href="#" class="imgitem3_press ">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-atx-impact-hub.jpg?crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="imgitem4 imgspace">
+                        <a href="#" class="imgitem4_press ">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-dal-worksuites.jpg?crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="imgitem5 imgspace">
+                        <a href="#" class="imgitem5_press ">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-chi-exchange-312.jpg?crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400"
+                                alt="">
+                        </a>
+                    </li>
+                    <!-- same anchor -->
+                    <li class="imgitem1 imgspace">
+                        <a href="#" class="imgitem1_press">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-bos-workbar.jpg?crop=foc
+                        alpoint&domain=deskpass-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="imgitem2 imgspace">
+                        <a href="#" class="imgitem2_press ">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-atl-alkaloid-networks.jpg?crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="imgitem3 imgspace">
+                        <a href="#" class="imgitem3_press ">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-atx-impact-hub.jpg?crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="imgitem4 imgspace">
+                        <a href="#" class="imgitem4_press ">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-dal-worksuites.jpg?crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400"
+                                alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="header-slide-2 header-slide-img">
+                    <li class="imgitem1 imgspace">
+                        <a href="#" class="imgitem1_press">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-dc-metro-office.jpg?crop=focalpoint&domain=deskpass-
+                         marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="imgitem2 imgspace">
+                        <a href="#" class="imgitem1_press">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-la-cross-campus.jpg?crop=focalpoint&domain=d
+                         eskpass-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="imgitem3 imgspace">
+                        <a href="#" class="imgitem1_press">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-den-novel.jpg?crop=focalpo
+                         int&domain=deskpass-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="imgitem4 imgspace">
+                        <a href="#" class="imgitem1_press">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-hou-ranch.jpg?crop=focalpoint&domain=deskpass-marketing.imgix.net&fi
+                         t=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400" alt="">
+                        </a>
+                    </li>
+                    <li class="imgitem5 imgspace">
+                        <a href="#" class="imgitem1_press">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-mia-building-co.jpg?crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400"
+                                alt="">
+                        </a>
+                    </li>
+                    <!-- same anchor -->
+                    <li class="imgitem1 imgspace">
+                        <a href="#" class="imgitem1_press">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-dc-metro-office.jpg?crop=focalpoint&domain=deskpass-
+                         marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="imgitem2 imgspace">
+                        <a href="#" class="imgitem1_press">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-la-cross-campus.jpg?crop=focalpoint&domain=d
+                         eskpass-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="imgitem3 imgspace">
+                        <a href="#" class="imgitem1_press">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-den-novel.jpg?crop=focalpo
+                         int&domain=deskpass-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400"
+                                alt="">
+                        </a>
+                    </li>
+                    <li class="imgitem4 imgspace">
+                        <a href="#" class="imgitem1_press">
+                            <img src="https://deskpass-marketing.imgix.net/tall-images/spaces-gallery-hou-ranch.jpg?crop=focalpoint&domain=deskpass-marketing.imgix.net&fi
+                         t=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&w=400" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header-content">
+                <div class="header-content-body">
+                    <div class="header-slogan">We make
+                        <br> hybrid work.
+                    </div>
+                    <div class="header-detail">Thousands of workspaces your team will love. Unlimited flexibility. No
+                        commitments. Pay as you go.</div>
+                    <a href="#" class="btn-detail">
+                        Get Your Team Started Today
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="backroundvideo">
+            <div class="backgroundgrey">
+                See how Deskpass can work for your team
+                <svg class="icon-crossdown" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="99.6px" height="54.8px"
+                    viewBox="0 0 99.6 54.8" style="overflow:visible;enable-background:new 0 0 99.6 54.8;"
+                    xml:space="preserve">
+                    <defs>
+                    </defs>
+                    <path style="fill:#4660FF;" d="M91.8,26.3l-2.6,11.4C73.7,11.9,51.7,3.4,35.3,0.9C16.1-1.9,0.6,2.7,0,2.9l2.3,7.7c0.1,0,14.6-4.3,32.1-1.6
+                      c21.3,3.3,37.8,15,49.1,34.8L71,40.3L68.9,48l24.6,6.8L99.6,28L91.8,26.3z"></path>
+                </svg>
+            </div>
+            <div class="video">
+                <iframe class="playvideo" title="vimeo-player"
+                    src="https://player.vimeo.com/video/441844325?h=7387b56fec" width="640" height="360" frameborder="0"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="background-maincolor">
+                <div class="background-maincolor-text">Ready to access thousands of coworking spaces on one simple
+                    platform?</div>
+                <a href="#" class="background-maincolor-btn">Let’s Chat</a>
+            </div>
+        </div>
+        <div class="teamwork">
+            <h3 class="teamwork_text">How Deskpass Works</h3>
+            <ul class="teamwork_lists">
+                <li class="teamwork_item grid wide">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="teamworkslide tws1">
+                                <img src="./accest/img/member.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="teamwork_item-text">
+                                <h2 class="item_header">Sign up your team</h2>
+                                <h3 class="teamwork_body">Choose your network from more than 1,000 workspaces across the
+                                    country.</h3>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </li>
+                <li class="teamwork_item grid wide">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="teamworkslide">
+                                <img class="workplace" src="./accest/img/memberchat.jpg" alt="">
+                                <div class="box_chat">
+                                    <div class="memberchat">
+                                        <img src="https://www.deskpass.com/dist/images/for-spaces-checkins-01-a0d2a0813b.png"
+                                            alt="">
+                                    </div>
+                                    <div class="memberchat">
+                                        <img src="https://www.deskpass.com/dist/images/for-spaces-checkins-02-b29f801a7d.png"
+                                            alt="">
+                                    </div>
+                                    <div class="memberchat">
+                                        <img src="https://www.deskpass.com/dist/images/for-spaces-checkins-03-203316038d.png"
+                                            alt="">
+                                    </div>
+                                    <div class="memberchat">
+                                        <img src="https://www.deskpass.com/dist/images/for-spaces-checkins-04-d1f6b8f186.png"
+                                            alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="teamwork_item-text">
+                                <h2 class="item_header">Employee autonomy</h2>
+                                <h3 class="teamwork_body">The Deskpass app tracks bookings, check-ins, and costs.</h3>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </li>
+                <li class="teamwork_item grid wide">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="teamworkslide">
+                                <div class="teamwork_analyze">
+                                    <div class="teamwork_analyze_header body_item">PAY AS YOU GO</div>
+                                    <div class="body_item item_number">$241</div>
+                                    <div class="body_item">Total spend for the month to date</div>
+                                    <div class="body_item item-icon">
+                                        <i class="fas fa-chart-line"></i>
+                                    </div>
+                                    <div class="body_item last_spend">You've used 10% more than last month</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="teamwork_item-text">
+                                <h2 class="item_header"> Pay as you go </h2>
+                                <h3 class="teamwork_body">No commitments. Add and remove space as you need it.</h3>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </li>
+                <li class="teamwork_item grid wide">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="teamworkslide">
+                                <div class="teamwork_analyze">
+                                    <div class="lead_avatar">
+                                        <img class="avatar_img" src="https://www.deskpass.com/dist/images/avatar-11-c359e51854.png" alt="">
+                                    </div>
+                                    <div class="lead_detail">
+                                        <div class="detail_name">Maya Singh</div>
+                                        <div class="detail_place">Los Angeles</div>
+                                    </div>
+                                    <div class="lead_history">
+                                        <ul class="history_fields">
+                                            <li class="field history_space">Last Booking</li>
+                                            <li class="field history_space">Avg. Monthly Bookings</li>
+                                            <li class="field history_space">Total Bookings to Date</li>
+                                        </ul>
+                                        <ul class="history_values">
+                                            <li class="value history_space">Yesterday</li>
+                                            <li class="value history_space">18</li>
+                                            <li class="value history_space">63</li>
+                                        </ul>
+                                    </div>
+                                    <div class="lead_contac-btn">Manage Team Member</div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="teamwork_item-text">
+                                <h2 class="item_header">Manage access</h2>
+                                <h3 class="teamwork_body"> Easily track spending controls and limits, and run reports.
+                                </h3>
+
+                            </div>
+                        </div>
+                </li>
+            </ul>
+        </div>
+        <div class="reason">
+            <div class="header_reason">Why flexible workspace matters.
+                <div></div>
+            </div>
+            <ul class="reason_lists">
+                <li class="reason_item">
+                    <div class="reason_item-head">Reduce Overhead</div>
+                    <div class="reason_item-body">Forego long-term leases forever. Pay only for the space you use, on an
+                        as-needed basis.</div>
+                </li>
+                <li class="reason_item">
+                    <div class="reason_item-head">Swing Space</div>
+                    <div class="reason_item-body">Expand the capacity of your existing real estate portfolio.</div>
+                </li>
+                <li class="reason_item">
+                    <div class="reason_item-head">Talent</div>
+                    <div class="reason_item-body">Attract, recruit, and retain talent by offering office solutions in
+                        every major market.</div>
+                </li>
+                <li class="reason_item">
+                    <div class="reason_item-head">Seasonal and Project-Based Space</div>
+                    <div class="reason_item-body">Set up teams for a week — or a month. Time’s on your side.</div>
+                </li>
+            </ul>
+        </div>
+        <div class="feature">
+            <h1 class="feature_header">A robust feature set.</h1>
+            <div class="feature_body_lists grid wide">
+                <div class="row">
+                    <div class="col l-4 m-6 c-12">
+                        <div class="feature_body_item">
+                            <div class="feature_body_item_icon">
+                                <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M14.654 24.4221L7.18195 16.95L0.817993 23.314L14.654 37.15L37.9679 13.8362L31.6039 7.47224L14.654 24.4221Z"
+                                        fill="#4760FF"></path>
+                                </svg>
+
+                            </div>
+                            <div class="feature_body_item_des">
+                                <div class="feature_body_item_des_header">Utilization-Based Pricing</div>
+                                <div class="feature_body_item_des_body">Designed to fit your evolving business needs in
+                                    an
+                                    ever-changing world. Pay for utilization, not occupancy, dramatically reducing your
+                                    bottom line.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="feature_body_item">
+                            <div class="feature_body_item_icon">
+                                <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M14.654 24.4221L7.18195 16.95L0.817993 23.314L14.654 37.15L37.9679 13.8362L31.6039 7.47224L14.654 24.4221Z"
+                                        fill="#4760FF"></path>
+                                </svg>
+                            </div>
+                            <div class="feature_body_item_des">
+                                <div class="feature_body_item_des_header">Choose Your Network of Spaces</div>
+                                <div class="feature_body_item_des_body">Hand-pick ideal spaces for your team, company,
+                                    or
+                                    client meetings.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="feature_body_item">
+                            <div class="feature_body_item_icon">
+                                <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M14.654 24.4221L7.18195 16.95L0.817993 23.314L14.654 37.15L37.9679 13.8362L31.6039 7.47224L14.654 24.4221Z"
+                                        fill="#4760FF"></path>
+                                </svg>
+                            </div>
+                            <div class="feature_body_item_des">
+                                <div class="feature_body_item_des_header">Usage Tracking and Reporting</div>
+                                <div class="feature_body_item_des_body">Quickly and easily view and manage exp
+                                    enditures, accounting, and expense tracking data related to workspaces, teams, and
+                                    individuals.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="feature_body_item">
+                            <div class="feature_body_item_icon">
+                                <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M14.654 24.4221L7.18195 16.95L0.817993 23.314L14.654 37.15L37.9679 13.8362L31.6039 7.47224L14.654 24.4221Z"
+                                        fill="#4760FF"></path>
+                                </svg>
+                            </div>
+                            <div class="feature_body_item_des">
+                                <div class="feature_body_item_des_header">Safety and Security</div>
+                                <div class="feature_body_item_des_body">On-demand access to spaces
+                                    committed to health and safety standards, as well as reliable internet,
+                                    video conferencing, printing, and network security.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="feature_body_item">
+                            <div class="feature_body_item_icon">
+                                <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M14.654 24.4221L7.18195 16.95L0.817993 23.314L14.654 37.15L37.9679 13.8362L31.6039 7.47224L14.654 24.4221Z"
+                                        fill="#4760FF"></path>
+                                </svg>
+                            </div>
+                            <div class="feature_body_item_des">
+                                <div class="feature_body_item_des_header">Office Hoteling</div>
+                                <div class="feature_body_item_des_body">Deskpass acts as concierge,
+                                    tracking which teams and individuals are using which types of spaces,
+                                    where they’re working from, and how often they’re booking.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col l-4 m-6 c-12">
+                        <div class="feature_body_item">
+                            <div class="feature_body_item_icon">
+                                <svg width="38" height="38" viewBox="0 0 38 38" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M14.654 24.4221L7.18195 16.95L0.817993 23.314L14.654 37.15L37.9679 13.8362L31.6039 7.47224L14.654 24.4221Z"
+                                        fill="#4760FF"></path>
+                                </svg>
+                            </div>
+                            <div class="feature_body_item_des">
+                                <div class="feature_body_item_des_header">Access Management</div>
+                                <div class="feature_body_item_des_body">Access key data into usage patterns and
+                                    amenities
+                                    sought by individuals or teams.
+                                    Flexible solutions translate to higher productivity, helping you to make more
+                                    informed
+                                    real estate decisions.</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <div class="displaynumber">
+            <div class="displayopening">
+                <h1 class="displaynumber_header">Truth in
+                    numbers.</h1>
+                <div class="displaynumber_open">
+                    Employees are more likely to report being satisfied,
+                    increase their productivity, and stick around longer if they like where they work.
+                    With the tools and resources available for remote working,
+                    you can empower your team to work from a well-appointed coworking
+                    space while building a company culture you can be proud of.
+                </div>
+            </div>
+            <div class="displaylists grid wide">
+                <div class="row">
+                    <div class="col l-3 m-6 c-12">
+                        <div class="display_item">
+                            <div class="displaynum">70 <span>%</span></div>
+                            <div class="display_detail">At least 70% of employees would quit their current position for
+                                more flexible work arrangements.
+                                <a href="#">Flexjobs</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="display_item">
+                            <div class="displaynum">71 <span>%</span></div>
+                            <div class="display_detail">71% of people surveyed were more creative,
+                                62% reported that their measure of work improved significantly and 90%
+                                said they felt more confident when coworking.
+                                <a href="#">Deskmag</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="display_item">
+                            <div class="displaynum">86 <span>%</span></div>
+                            <div class="display_detail">
+                                Nearly 90% of the Fortune “100 Best Companies” allow employees
+                                to telecommute or work remotely at least 20% of the time.
+                                <a href="#">Fortune</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="display_item">
+                            <div class="displaynum">95 <span>%</span></div>
+                            <div class="display_detail">
+                                95% of employers say remote work has a high impact on employee retention,
+                                and 36% of employees would choose it over a pay raise.
+                                <a href="#">GWA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="memberslide">
+            <input type="radio" id="mem1" name="member">
+            <input type="radio" id="mem2" name="member">
+            <input type="radio" id="mem3" name="member">
+            <ul class="memberlits">
+                <li class="member mem1">
+                    <div class="mem-text">
+                        <p class="mem-slogan">
+                            One of the ways we would use Deskpass is as a reward for
+                            someone who had given the agency a lot from an hour standpoint
+                            or someone who needs to get some creativity. It's been a brilliant
+                            tool allowing us to offer managed workplace flexibility.
+                        </p>
+                        <div class="mem-detail">
+                            <div class="mem-name">Alisa Wolfson</div>
+                            <div class="mem-position">EVP Head of Design</div>
+                            <div class="mem-sign">
+                                <img src="https://deskpass-marketing.imgix.net/logos/logo-leo-burnett-01.png?
+                                auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h
+                                =29&ixlib=php-3.3.0&q=82&usm=50&w=200" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="mem-picture">
+                        <img src="https://deskpass-marketing.imgix.net/tall-images/alisa-wolfson-color.jpg?crop=focalpoint&do
+                        main=deskpass-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-3.3.0&q=82&usm=50&
+                        w=400" alt="">
+                    </div>
+                </li>
+                <li class="member mem2">
+                    <div class="mem-text">
+                        <p class="mem-slogan">
+                            The pandemic accelerated our plans to close up our physical office and move to fully
+                            distributed work.
+                            Deskpass was an easy option to offer our employees during this transition who need
+                            a change of pace from their home office every now and then. The availability, flexibility,
+                            and safety of the spaces has been a great lifeline for our teams to use when needed.
+                        </p>
+                        <div class="mem-detail">
+                            <div class="mem-name">Jack Nickell</div>
+                            <div class="mem-position">CEO, Threadless</div>
+                            <div class="mem-sign">
+                                <img src="https://deskpass-marketing.imgix.net/logos/threadless-logo.png?auto=format
+                                &crop=focalpoint&domain=d
+                                eskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=65&ixlib=php-3.3.0&q=8
+                                2&usm=50&w=200" alt="">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="mem-picture">
+                        <img src="https://deskpass-marketing.imgix.net/tall-images/jake-nickell.jpg?crop=focalpoint&domai
+                        n=deskpass-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib
+                        =php-3.3.0&q=82&usm=50&w=400" alt="">
+                    </div>
+                </li>
+                <li class="member mem3">
+                    <div class="mem-text">
+                        <p class="mem-slogan">
+                            Deskpass feels like it was designed just for 5.
+                            Flexible work-from-home solutions combined with
+                            Deskpass access to dozens of office spaces near
+                            our clients has been a game changer for us.
+                        </p>
+                        <div class="mem-detail">
+                            <div class="mem-name">Taylor Duncan</div>
+                            <div class="mem-position">5’s VP – US Growth & Development</div>
+                            <div class="mem-sign"></div>
+                        </div>
+
+                    </div>
+                    <div class="mem-picture">
+                        <img src="https://deskpass-marketing.imgix.net/tall-images/taylor-duncan.jpg?crop=focalpoint&domain=deskpa
+                        ss-marketing.imgix.net&fit=crop&fm=pjpg&fp-x=0.5&fp-y=0.5&h=533&ixlib=php-
+                        3.3.0&q=82&usm=50&w=400" alt="">
+                    </div>
+                </li>
+            </ul>
+            <div class="selectslide">
+                <label class="finish" for="mem1"></label>
+                <label class="finish" for="mem2"></label>
+                <label class="finish" for="mem3"></label>
+            </div>
+        </div>
+        <div class="company">
+            <div class="company_header">Considering Deskpass for Teams? You’re in good company.</div>
+            <div class="company_lists grid wide">
+                <div class="row">
+                    <div class="col l-3 m-6 c-6">
+                        <div class="company_item">
+                            <img src="https://deskpass-marketing.imgix.net/logos/logo-threadless.png?
+                            auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=128&ixlib=php-3.3.0&q=61&w=400"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-6">
+                        <div class="company_item">
+                            <img src="https://deskpass-marketing.imgix.net/logos/logo-purestorage.png?
+                            auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=70&ixlib=php-3.3.0&q=61&w=400"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-6">
+                        <div class="company_item">
+                            <img src="https://deskpass-marketing.imgix.net/logos/logo-inmarket.png?
+                            auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=69&ixlib=php-3.3.0&q=61&w=400"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-6">
+                        <div class="company_item">
+                            <img src="https://deskpass-marketing.imgix.net/logos/logo-goodrx.png?
+                        auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=106&ixlib=php-3.3.0&q=61&w=400"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-6">
+                        <div class="company_item">
+                            <img src="https://deskpass-marketing.imgix.net/logos/logo-exechq.png?
+                        auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=172&ixlib=php-3.3.0&q=61&w=400"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-6">
+                        <div class="company_item">
+                            <img src="https://deskpass-marketing.imgix.net/logos/logo-ez-texting.png?
+                        auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=90&ixlib=php-3.3.0&q=61&w=400"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-6">
+                        <div class="company_item">
+                            <img src="https://deskpass-marketing.imgix.net/logos/task-rabbit-logo-02.png?
+                        auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=78&ixlib=php-3.3.0&q=61&w=400"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-6">
+                        <div class="company_item">
+                            <img src="https://deskpass-marketing.imgix.net/logos/Lashify_2021-08-24-032931_yuiv.png?auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=93&ixlib=php-3.3.1&q=61&w=400"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-6">
+                        <div class="company_item">
+                            <img src="https://deskpass-marketing.imgix.net/logos/flowspace_2021-08-24-034122_lsqo.png?auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=117&ixlib=php-3.3.1&q=61&w=400"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-6">
+                        <div class="company_item">
+                            <img src="https://deskpass-marketing.imgix.net/logos/superhuman.png?auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=27&ixlib=php-3.3.1&q=61&usm=20&w=400"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-6">
+                        <div class="company_item">
+                            <img src="https://deskpass-marketing.imgix.net/logos/Techstars.png?auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=100&ixlib=php-3.3.1&q=61&w=400"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-6">
+                        <div class="company_item">
+                            <img src="https://deskpass-marketing.imgix.net/logos/veritone.png?auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=75&ixlib=php-3.3.1&q=61&w=400"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-6">
+                        <div class="company_item">
+                            <img src="https://deskpass-marketing.imgix.net/logos/Gallagher_2021-08-24-162123_sjkc.png?auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=122&ixlib=php-3.3.1&q=61&w=400"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-6">
+                        <div class="company_item">
+                            <img src="https://deskpass-marketing.imgix.net/logos/GSA.png?auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=158&ixlib=php-3.3.1&q=61&w=400"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-6">
+                        <div class="company_item">
+                            <img src="https://deskpass-marketing.imgix.net/logos/unispace.png?auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=86&ixlib=php-3.3.1&q=61&w=400"
+                                alt="">
+                        </div>
+                    </div>
+
+                    <div class="col l-3 m-6 c-6">
+                        <div class="company_item">
+                            <img src="https://deskpass-marketing.imgix.net/logos/Moderna-logo.png?auto=format&crop=focalpoint&domain=deskpass-marketing.imgix.net&fit=crop&fp-x=0.5&fp-y=0.5&h=209&ixlib=php-3.3.1&q=61&w=400"
+                                alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div id="stated">
+            <h1 class="stated_header">What are you waiting for?</h1>
+            <h2 class="stated_sub-header">Get started with Deskpass for Teams</h2>
+            <div class="tellself">Tell us about yourself</div>
+            <form class="yourself">
+                <input class="outline" type="text" placeholder="Company Name" required="company">
+                <input class="outline" type="text" placeholder="Your Name" required="name">
+                <input class="outline" type="text" placeholder="Your Work Email" required="Email">
+                <div class="space_header">How many teammates are you looking for workspace?</div>
+                <input type="radio" name="place" class="checkbtn" id="justforme">
+                <input type="radio" name="place" class="checkbtn" id="seplace">
+                <input type="radio" name="place" class="checkbtn warn" id="thdplc">
+                <input type="radio" name="place" class="checkbtn warn" id="frplc">
+                <input type="radio" name="place" class="checkbtn warn" id="fthplc">
+                <input type="radio" name="place" class="checkbtn warn" id="sxplc">
+                <input type="radio" name="place" class="checkbtn warn" id="svplc">
+                <div class="space_select">
+                    <label for="justforme" class="space_select-contain outlinechecked">
+                        <span class="tickicon"> <i class="fas fa-check-circle"></i></span>
+                        <div class="space_select-text">Just for me</div>
+                    </label>
+                    <label for="seplace" class="space_select-contain outlinechecked">
+                        <span class="tickicon"> <i class="fas fa-check-circle"></i></span>
+                        <div class="space_select-text">2-4</div>
+                    </label>
+                    <label for="thdplc" class="space_select-contain outlinechecked">
+                        <span class="tickicon"> <i class="fas fa-check-circle"></i></span>
+                        <div class="space_select-text">5-24</div>
+                    </label>
+                    <label for="frplc" class="space_select-contain outlinechecked">
+                        <span class="tickicon"> <i class="fas fa-check-circle"></i></span>
+                        <div class="space_select-text">25-99</div>
+                    </label>
+                    <label for="fthplc" class="space_select-contain outlinechecked">
+                        <span class="tickicon"> <i class="fas fa-check-circle"></i></span>
+                        <div class="space_select-text">100-499</div>
+                    </label>
+                    <label for="sxplc" class="space_select-contain outlinechecked">
+                        <span class="tickicon"> <i class="fas fa-check-circle"></i></span>
+                        <div class="space_select-text">500-2000</div>
+                    </label>
+                    <label for="svplc" class="space_select-contain outlinechecked">
+                        <span class="tickicon"> <i class="fas fa-check-circle"></i></span>
+                        <div class="space_select-text">2000+</div>
+                    </label>
+                </div>
+                <div class="warndisplay">You'll be prompted to select a date and time for the demo after submitting.
+                </div>
+                <div class="option">
+                    Primary Need
+                    <span>(optional)</span>
+                </div>
+                <textarea class="outline" name="" id="" cols="num" rows="num"
+                    placeholder="ex: remote workers, working on the road, short-term office need"></textarea>
+                <button class="press">Get Started</button>
+            </form>
+        </div>
+        <div id="individual" class="individual">
+            <h1 class="individual_header">Looking for an individual membership?</h1>
+            <div class="freetry">Try Deskpass for free.</div>
+            <form action="" class="yourself">
+                <input class="outline" type="text" placeholder="Email Address" required="Email">
+                <input class="outline password" type="password" placeholder="Postal Code" required="Code">
+                <div class="show-hide">
+                      <div class="show"><i class="far fa-eye"></i></div>
+                      <div class="hide"><i class="far fa-eye-slash"></i></div>
+                </div>
+                <select class="outline" name="placefind" id="placefind">
+                    <option value="US">United State</option>
+                    <option value="AUS">Austrailia</option>
+                </select>
+                <span class="arrowdown"><i class="fas fa-chevron-down"></i></span>
+                <button class="press findbtn">Find Spaces Near Me</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-logo"><a href="index.html" class="text_view main_logo">deskpass</a></div>
+        <ul class="list-footer">
+            <li class="footer-item">
+                <div class="footer-item-head">Cities</div>
+                <div class="footer-item-body">
+                    <a href="#" class="footer-item-anchor">Atlanta</a>
+                    <a href="#" class="footer-item-anchor">Austin</a>
+                    <a href="#" class="footer-item-anchor">Boston</a>
+                    <a href="#" class="footer-item-anchor">Chicago</a>
+                    <a href="#" class="footer-item-anchor">D.C.</a>
+                    <a href="#" class="footer-item-anchor">Dallas</a>
+                    <a href="#" class="footer-item-anchor">Denver</a>
+                    <a href="#" class="footer-item-anchor">Detroit</a>
+                    <a href="#" class="footer-item-anchor">Houston</a>
+                    <a href="#" class="footer-item-anchor">Jacksonville</a>
+                </div>
+            </li>
+            <li class="footer-item">
+                <div class="footer-item-head">Deskpass</div>
+                <div class="footer-item-body">
+                    <a href="#" class="footer-item-anchor">Pricing</a>
+                    <a href="#" class="footer-item-anchor">Individual Plans</a>
+                    <a href="#" class="footer-item-anchor">Annual Plan</a>
+                    <a href="#" class="footer-item-anchor">For Spaces</a>
+                    <a href="#" class="footer-item-anchor">Find a Desk</a>
+                    <a href="#" class="footer-item-anchor">Find a Conference Room</a>
+                    <a href="#" class="footer-item-anchor">Find an Office</a>
+                    <a href="#" class="footer-item-anchor">Community</a>
+                    <a href="#" class="footer-item-anchor">Support</a>
+                    <a href="#" class="footer-item-anchor">COVID-19 Safety Pledget</a>
+                </div>
+            </li>
+            <li class="footer-item">
+                <div class="footer-item-head">Company</div>
+                <div class="footer-item-body">
+                    <a href="#" class="footer-item-anchor">About Us</a>
+                    <a href="#" class="footer-item-anchor">Blog</a>
+                    <a href="#" class="footer-item-anchor">Rules & Guidelines</a>
+                    <a href="#" class="footer-item-anchor">Terms & Privacy</a>
+                    <a href="#" class="footer-item-anchor">Press</a>
+                    <a href="#" class="footer-item-anchor">Careers</a>
+                    <a href="#" class="footer-item-anchor">Become a Partner</a>
+                    <a href="#" class="footer-item-anchor">Brokers</a>
+                </div>
+            </li>
+            <li class="footer-item">
+                <div class="footer-item-head">Blog</div>
+                <div class="footer-item-body anchor-item">
+                    <a href="#" class="footer-item-anchor-special">
+                        <span class="anchor-text">
+                            Deskpass is International! We're Live in Sydney, Australia
+                        </span>
+                        <div class="keep-reading">Keep Reading</div>
+                    </a>
+                    <div class="follow">
+                        <div class="head-follow">Follow</div>
+                        <div class="body-follow">
+                            <div class="follow-icon">
+                                <a href="#">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </div>
+                            <div class="follow-icon">
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a></div>
+                            <div class="follow-icon">
+                                <a href="#">
+                                    <i class="fab fa-instagram-square"></i>
+                                </a></div>
+                            <div class="follow-icon">
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a></div>
+                        </div>
+                    </div>
+            </li>
+        </ul>
+        <div class="footer-right">© 2021 Deskpass Corporation. All Rights Reserved.</div>
+    </footer>
+
+</body>
+<script src="./accest/js/style.js"></script>
+</html>
