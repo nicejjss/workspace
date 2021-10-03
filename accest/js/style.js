@@ -133,11 +133,13 @@ function myFunction(x) {
         document.querySelector('.main_logo').style.cssText=`
         position: fixed;
         left: 37px;
+        transition: all 0.3s linear;
         `;
         document.querySelector('.menuicon').style.cssText=`
         position: fixed;
         top: 50px;
         right: 34px;
+        transition: all 0.3s linear;
         `;
         document.querySelector('.res-phone .text_view.naviglheader').style.cssText=`
         display: unset;
