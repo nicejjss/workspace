@@ -1,1 +1,1 @@
-# https://nicejjss.github.io/
+# https://nicejjss.github.io/workplace
