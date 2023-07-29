@@ -1,3 +1,7 @@
+.body{
+    background: white;
+}
+
 @media (min-width: 740px) and (max-width: 1023px) {
     .header{
         overflow: hidden;
