@@ -723,6 +723,7 @@ position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: white;
 }
 .header_reason{
     width: 600px;
