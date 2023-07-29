@@ -405,6 +405,7 @@ box-shadow: 0px 0px 30px -10px rgba(0,0,0,0.75);
 .body{
     width: 100%;
     height: fit-content;
+    background: white;
 }
 .backroundvideo{
     position: relative;
